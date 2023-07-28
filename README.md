@@ -9,3 +9,26 @@ The success of the chatbot will be measured based on the following metrics:
 - Customer engagement (e.g., click-through rate, time spent on the platform)
 - Reduced response time
 - Increased customer satisfaction (e.g., NPS score)
+## 4. Requirements & Constraints:
+Functional requirements:
+- The chatbot should be able to understand and respond to customer queries in a natural language.
+- The chatbot should be integrated with existing customer support platforms.
+- The chatbot should provide quick and accurate responses to customer queries.
+## Constraints:
+- The cost of the chatbot should be minimal.
+- The chatbot's latency should be below 5 seconds.
+
+## 5. What's in-scope & out-of-scope?
+### In-scope:
+- Developing a chatbot that can interact with customers in a natural language and provide quick and accurate responses to their queries.
+- Integrating the chatbot with existing customer support platforms.
+### Out-of-scope:
+Developing a custom customer support platform.
+## 6. Methodology:
+### Problem Statement:
+The problem will be framed as a natural language processing (NLP) problem, where the goal is to develop a system that can understand and respond to customer queries in a natural language.
+
+### Data:
+The chatbot will be trained on a dataset of customer queries and responses. The input data needed during serving will be the customer's query.
+
+The model will be trained on the HuggingFace Samsum dataset
